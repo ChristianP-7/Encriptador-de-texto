@@ -1,0 +1,125 @@
+*{
+    background: #F3F5FC;
+    color: var(--dark-blue-dark-blue-300, #0A3871);
+    font-weight: 400;
+    font-size: 32px;
+    font-family: Inter;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 5%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 25px;
+    margin-left: 80px;
+}
+
+.text-area{
+    background-color: white;
+    border-radius: 24px;
+    border: none;
+    color: #63C785;
+    margin-top: 20px;
+    width: 685px;
+    text-transform: lowercase;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+::placeholder{
+    color: #63C785;
+}
+    .text-area:focus{
+        outline: none;
+    }
+
+.aclaraciones{
+    color: #495057;
+    font-size: 15px;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.encriptar{
+    background-color: #63C785;
+    border: 1px solid #D8DFE8;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.encriptar:active{
+    background-color: #5AE88A;
+    font-size: 102%;
+    border: 2px solid #F3F5FC
+}
+
+.desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #63C785;
+    border-radius: 24px;
+    color: #63C785;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.desencriptar:active{
+    background-color: #E1E9F2;
+    font-size: 102%;
+    border: 2px solid #F3F5FC
+}
+
+.copiar{
+    border: 1px solid #63C785;
+    border-radius:24px;
+    color: #63C785;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 128px;
+    margin-top: 530px;
+    position: absolute;
+    width: 328px;
+}
+
+.copiar:active{
+    background-color: #D8DFE8;
+    font-size: 102%;
+    border: 2px solid #F3F5FC
+}
+
+.resultado{
+    background: white;
+    background-image: url("Recursos/Muñeco.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #63C785;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    position: fixed;
+}
+
+.resultado:focus {
+    outline: none;
+}
+
+.firma{
+    color: #63C785;
+    text-align: center;
+    font-size: 15px;
+}

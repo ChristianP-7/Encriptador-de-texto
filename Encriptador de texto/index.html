@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="Recursos/Logo.png" alt="logo de alura" class="logo">   
+    </header>
+    <main>
+        <section>
+            <textarea cols="30" rows="8.5" placeholder="Ingrese el texto aquí" class="text-area"></textarea>
+            <div>
+                <h6 class="aclaraciones">Letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea cols="20" rows="10" class="resultado"></textarea>
+            <div>
+                <button class="copiar" onclick="copiarAlPortapapeles()">Copiar</button>
+            </div>
+        </section>
+    </main>
+<script src="script.js"></script>
+<h5 class="firma">Desarrollado por Christian Pérez</h5>
+</body>
+</html>
